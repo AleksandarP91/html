@@ -1,3 +1,29 @@
-﻿body
-{
-}
+﻿  body{
+            background-image:url(image.jpg) ;
+            background-repeat:no-repeat;
+            background-size: 100%;
+
+        }
+  #abc{
+      color:aqua;
+      font-size:50px;
+
+  }
+
+  #abc ul {
+      list-style:none;
+      
+ }
+
+  
+  #abc ul li {
+
+    display:inline-flex;  
+    
+ }
+  button {
+      background-color:gainsboro;
+      font-size:40px;
+
+  }
+  .divider
