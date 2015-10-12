@@ -1,7 +1,16 @@
+<<<<<<< HEAD
   body, h6, h5, h4, h3, h2, h1,p{
            background-color: #D1A319;
       margin: 0;
       padding: 0;
+=======
+﻿  body{
+            background-image:url(image.jpg) ;
+            background-repeat:no-repeat;
+            background-size: 100% 250px;
+            background-color:darkgoldenrod
+            
+>>>>>>> origin/Aleksandar
 
         }
 
@@ -77,7 +86,7 @@ button {
 
 .img {
      display: inline;
-     margin: 5px;
+     margin: 10px;
      border: 1px solid #ffffff;
  }
 
@@ -91,4 +100,11 @@ button {
      width: 120px;
      margin: 5px;
  }
-  
+ 
+
+#bt {
+    height:200px;
+    font-size:40px;
+    color:darkgoldenrod;
+    text-align:center;
+}
