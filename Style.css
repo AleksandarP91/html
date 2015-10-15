@@ -4,13 +4,16 @@
             background-size: 1100px 350px;
             background-color:lightgoldenrodyellow;
             background-position:center;
+            padding:0px;
+            margin:0px;
+            top:0px;
             
             
 
         }
   #abc{
 
-      color:black;
+      font-family:'Bradley Hand ITC';
       font-size:35px;
       background-color:darkkhaki;
       
@@ -39,7 +42,7 @@
     #abc ul li a {
         
         padding:20px;
-     color:black;
+      color:maroon;
            text-decoration: none;
     }
    .img {
@@ -68,10 +71,17 @@
      margin: 5px;
  }
  
-
+#picture {
+    
+    height:320px;
+}
 #bt {
-    height:385px;
+    height:60px;
+    
     font-size:40px;
-    color:black;
-    text-align:center;
+    color:darkgoldenrod;
+    text-align:left;
+    font-family:'Bradley Hand ITC';
+    background-color:darkkhaki;
+    
 }
