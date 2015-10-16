@@ -1,56 +1,67 @@
-﻿  body{
-            background-image:url(image.jpg) ;
-            background-repeat:no-repeat;
-            background-size: 100%;
-
-        }
-  #abc{
-      color:aqua;
-      font-size:50px;
-
-  }
-
-  #abc ul {
-      list-style:none;
-      text-align:center;
-      
+﻿html {font-family: helvetica;
+	background-image: url(image.jpg);
  }
 
-  
-  #abc ul li {
+ head{
 
-    display:inline;  
-    
-    
+
  }
-button {
-    background-color: gainsboro;
-    font-size: 40px;
+body{width: 800px;
+	height: 900px;
+    background-color: #FF6600;
+    margin: auto;
+    padding: 15px;
+    border: 3px red;
 }
-   .img {
-     margin: 5px;
-    padding: 5px;
-    border: 1px solid #0000ff;
-     height: auto;
-     width: auto;
-     float: left;
-     text-align: center;
- }
 
-.img {
-     display: inline;
-     margin: 5px;
-     border: 1px solid #ffffff;
- }
+header{
 
-.img a:hover img {
-     border:1px solid #0000ff;
- }
+	background-color: #33CCCC;
+	padding-top: 15px;
+	text-align: center;
+    
+    text-shadow:2px 2px #0000FF;
 
-.desc {
-     text-align: center;
-     font-weight: normal;
-     width: 120px;
-     margin: 5px;
+
+
+}
+
+
+nav ul{list-style: none;
+
+
+}
+h3{
+	color: #0000FF;
+	list-style: none;
+	background-color: #C0C0C0;
+	margin:  left;
+	border-radius: 15px;
+
+}
+ ul li{
+ 	display:inline-block;
+ 	
+ } 
+ li img{
+ 	width: 150px;
+ 	height: 145px;
+ 	margin: 15px;
+ 	border-radius: 10px;
+
+
  }
-  
+div ul{
+	text-align: center;
+
+}
+
+button {
+	background-color: gainsboro; 
+     font-size: 40px; 
+
+
+}
+p{
+color: white;	
+}
