@@ -1,18 +1,34 @@
 ﻿  body{
-            background-image:url(maxresdefault.jpg) ;
+            background-image:url(image.jpg) ;
             background-repeat:no-repeat;
-            background-size: 100%;
+            background-size: 100% 500px;
+            background-color:lightgoldenrodyellow;
+            
+            padding:0px;
+            margin:0px;
+            top:0px;
+            
+            
 
         }
-  #abc{
-      color:aqua;
-      font-size:50px;
+
+#bt{
+
+  margin-top: -40px;
 
   }
+  #abc{
 
+      font-family:'Bradley Hand ITC';
+      font-size:35px;
+      background-color:darkkhaki;
+
+  }
+ 
   #abc ul {
-      list-style:none;
-      text-align:center;
+
+      text-align:left;
+      
       
  }
 
@@ -21,36 +37,90 @@
 
     display:inline;  
     
-    
  }
-button {
-    background-color: gainsboro;
-    font-size: 40px;
-}
+    #abc ul li a {
+        
+        padding:20px;
+      color:maroon;
+           text-decoration: none;
+    }
    .img {
-     margin: 5px;
     padding: 5px;
-    border: 1px solid #0000ff;
-     height: auto;
+    border: 1px solid black;
      width: auto;
      float: left;
      text-align: center;
- }
+      top:0;
 
-.img {
+
      display: inline;
-     margin: 5px;
-     border: 1px solid #ffffff;
+     margin: 10px;
+     border: 1px solid black;
  }
 
 .img a:hover img {
-     border:1px solid #0000ff;
+     border:1px solid black;
+
  }
 
+.leftSide{
+ float: left;
+ width: 70%;
+ margin-left: 30px;
+
+}
+
+.leftSide p{
+
+    text-align: justify;
+     color:maroon;
+}
+
+.rightSide{
+ float: right;
+ width: auto;
+
+}
+
+.rightSide ul{
+list-style-type: armenian;
+
+}
+.rightSide ul a{
+text-decoration: none;
+
+}
 .desc {
      text-align: center;
      font-weight: normal;
      width: 120px;
      margin: 5px;
  }
-  
+ 
+#picture {
+    
+    height:320px;
+}
+#bt {
+    height:60px;
+    
+    font-size:40px;
+    color:darkgoldenrod;
+    text-align:left;
+    font-family:'Bradley Hand ITC';
+    background-color:darkkhaki;
+    
+}
+
+.footer{
+    
+   clear: both;
+}
+.footer ul{
+list-style-type: none;
+}
+
+.footer p{
+    
+   text-align: center;
+}
