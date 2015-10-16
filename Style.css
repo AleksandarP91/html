@@ -1,9 +1,9 @@
-﻿  body{
+  body{
             background-image:url(image.jpg) ;
             background-repeat:no-repeat;
-            background-size: 1100px 350px;
+            background-size: 100% 500px;
             background-color:lightgoldenrodyellow;
-            background-position:center;
+            
             padding:0px;
             margin:0px;
             top:0px;
@@ -11,16 +11,17 @@
             
 
         }
+
+#bt{
+
+  margin-top: -40px;
+
+  }
   #abc{
 
       font-family:'Bradley Hand ITC';
       font-size:35px;
       background-color:darkkhaki;
-      
-
-      
-
-
 
   }
  
@@ -34,9 +35,7 @@
   
   #abc ul li {
 
-    display:inline; 
-     
-    
+    display:inline;  
     
  }
     #abc ul li a {
@@ -64,6 +63,33 @@
 
  }
 
+.leftSide{
+ float: left;
+ width: 70%;
+ margin-left: 30px;
+
+}
+
+.leftSide p{
+
+    text-align: justify;
+     color:maroon;
+}
+
+.rightSide{
+ float: right;
+ width: auto;
+
+}
+
+.rightSide ul{
+list-style-type: armenian;
+
+}
+.rightSide ul a{
+text-decoration: none;
+
+}
 .desc {
      text-align: center;
      font-weight: normal;
@@ -84,4 +110,17 @@
     font-family:'Bradley Hand ITC';
     background-color:darkkhaki;
     
+}
+
+.footer{
+    
+   clear: both;
+}
+.footer ul{
+list-style-type: none;
+}
+
+.footer p{
+    
+   text-align: center;
 }
